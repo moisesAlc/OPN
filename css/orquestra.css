@@ -1,0 +1,134 @@
+/* Extra small devices (portrait phones, less than 576px)
+** No media query since this is the default in Bootstrap
+
+** Small devices (landscape phones, 576px and up) */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+
+    font-size: 3rem;
+    font-weight: bolder;
+
+    border: none;
+
+    /* background-color: rgba(255, 85, 0, .6); */
+    outline: rgba(255, 85, 0, 1);
+    color:rgba(0, 0, 0, .6);
+    cursor: pointer;
+  }
+
+  #myBtn:hover {
+    border: solid 1px  rgba(255, 85, 0, 1);
+    background-color: rgba(255, 255, 255, .8);
+    color: rgba(255, 85, 0, 1);
+  }
+a:link{
+    text-decoration: none;
+}
+
+#mainIndice{
+    text-align: center;
+    align-self: auto;
+}
+nav{
+    font-size: 1.3em;
+    text-align: center;
+}
+.dropdown-menu{
+    border-color: rgba(255, 85, 0, 1);
+}
+.dropdown-item{
+    text-align: center;
+    color:rgba(255, 85, 0, .5);
+    font-size: 1.2em;
+}
+.custom-toggler .navbar-toggler {
+    border-color: rgba(255, 85, 0, 1);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 85, 0, 1);
+}
+.navbar-light .navbar-nav .nav-link {
+    color:   rgba(255, 85, 0, .5);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 102, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+h1{
+    text-align: center;
+    text-size-adjust: initial;
+}
+.imgBio{
+    width: 70%;
+}
+#imgLogo{
+    width: 40%;
+}
+.imgBioArt{
+    width: 350px;
+    height: auto;
+    float: left;
+    box-shadow: 3px 3px 2px #666;
+}
+.linhaPartitura{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.nomePartitura{
+    margin: 0 !important;
+}
+.imgPDF{
+    box-shadow: none !important;
+    height: 1rem !important;
+    width: 1rem !important;
+}
+
+blockquote{
+    font-size: 1.1em;
+    font-style: oblique;
+    font-weight: 400;
+}
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 3%;
+}
+.equipe{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+}
+.equipe h2{
+    margin-bottom:15px;
+}
+.funcao{
+    font-style: oblique; 
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px a */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

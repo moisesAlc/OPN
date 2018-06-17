@@ -1,0 +1,88 @@
+/* Extra small devices (portrait phones, less than 576px)
+** No media query since this is the default in Bootstrap
+
+** Small devices (landscape phones, 576px and up) */
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+a:link{
+    text-decoration: none;
+}
+#mainIndice{
+    text-align: center;
+    align-self: auto;
+}
+nav{
+    font-size: 1.1em;
+    margin-top: 1rem;
+}
+.dropdown-item{
+    text-align: center;
+    color: blue;
+}
+h1{
+    text-align: center;
+    text-size-adjust: initial;
+}
+.nomeCompositor{
+    font-family: 'Playfair Display', serif;
+}
+.imgBio{
+    width: 70%;
+}
+.linhaPartitura{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.nomePartitura{
+    margin: 0 !important;
+}
+.imgPDF{
+    height: 1rem !important;
+    width: 1rem !important;
+}
+blockquote{
+    font-size: 1.1em;
+    font-style: oblique;
+    font-weight: 400;
+}
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 3%;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 17px !important;
+    color: #525252 !important;
+    font-weight: 300 !important;
+}
+
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px a */
+@media (min-width: 768px) {
+    .imgBio{
+        width: 350px;
+        height: auto;
+        float: left;
+        box-shadow: 3px 3px 2px #666;
+        margin: 15px;
+        margin-top: 5px;
+    }
+    p{
+        margin-top: 5px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
